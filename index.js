@@ -22,37 +22,37 @@ let xpGanho = 0
 if ( vidaInimigo == 0 ){
   xpGanho = 1000
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
 
@@ -72,37 +72,37 @@ console.log("Vida total do inimigo: " + vidaInimigo)
 if ( vidaInimigo == 0 ){
   xpGanho = 1000
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
 
@@ -122,37 +122,37 @@ console.log("Vida total do inimigo: " + vidaInimigo)
 if ( vidaInimigo == 0 ){
   xpGanho = 1000
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
 
@@ -172,37 +172,37 @@ console.log("Vida total do inimigo: " + vidaInimigo)
 if ( vidaInimigo == 0 ){
   xpGanho = 3000
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
 
@@ -222,37 +222,37 @@ console.log("Vida total do inimigo: " + vidaInimigo)
 if ( vidaInimigo == 0 ){
   xpGanho = 2000
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
 //Sistema de combate p/ ganhar XP
@@ -271,37 +271,37 @@ console.log("Vida total do inimigo: " + vidaInimigo)
 if ( vidaInimigo == 0 ){
   xpGanho = 500
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
 
@@ -321,40 +321,40 @@ console.log("Vida total do inimigo: " + vidaInimigo)
 if ( vidaInimigo == 0 ){
   xpGanho = 1000
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o inimigo e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
-console.log("Após o Heroi " + nomeDoHeroi + " alcançar o nível " + nivelDoHeroi + ", o chefão apareceu!")
+console.log("Após o Herói " + nomeDoHeroi + " alcançar o nível " + nivelDoHeroi + ", o chefão apareceu!")
 
 
 
@@ -372,37 +372,37 @@ console.log("Vida total do Chefão: " + vidaChefao)
 if ( vidaChefao == 0 ){
   xpGanho = 9500
   xpDoHeroi += xpGanho
-  console.log("O Heroi " + nomeDoHeroi + " derrotou o Chefão e ganhou " + xpGanho + " de experiência!")
+  console.log("O Herói " + nomeDoHeroi + " derrotou o Chefão e ganhou " + xpGanho + " de experiência!")
 }
 
-console.log("O Heroi " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
+console.log("O Herói " + nomeDoHeroi + " tem " + xpDoHeroi + " de experiência!")
 
 
 //Sistema de subida de nível
 if ( xpDoHeroi <= 1000 ){
   nivelDoHeroi = "Ferro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 1001 && xpDoHeroi <= 2000 ){
   nivelDoHeroi = "Bronze"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 2001 && xpDoHeroi <= 5000 ){
   nivelDoHeroi = "Prata"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 5001 && xpDoHeroi <= 7000 ){
   nivelDoHeroi = "Ouro"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 7001 && xpDoHeroi <= 8000 ){
   nivelDoHeroi = "Platina"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 8001 && xpDoHeroi <= 9000 ){
   nivelDoHeroi = "Ascendente"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi > 9001 && xpDoHeroi <= 10000 ){
   nivelDoHeroi = "Imortal"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }else if ( xpDoHeroi >= 10001 ){
   nivelDoHeroi = "Radiante"
-  console.log("O Heroi de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
+  console.log("O Herói de nome " + nomeDoHeroi + " está no nível " + nivelDoHeroi + "!")
 }
 
-console.log("O Chefão foi derrotado pelo Heroi " + nomeDoHeroi + "!" + " Agora a paz reina sobre o mundo!")
+console.log("O Chefão foi derrotado pelo Herói " + nomeDoHeroi + "!" + " Agora a paz reina sobre o mundo!")
